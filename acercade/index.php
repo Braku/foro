@@ -73,53 +73,7 @@
             <div class="carousel-inner">
 
               <?php
-                include_once '../consultas/conexion.php';
 
-                $res = $conexion->query("SELECT * FROM usuarios WHERE id_rol = 1 && 2");
-
-                while($datos = $res->fetch_array(MYSQLI_BOTH)) {
-                  for ($i=0; $i < 3; $i++) {
-                    if ($i == 0) {
-                      echo ('
-                      <div class="carousel-item active">
-                        <div class="row text-center" style="margin: 0;">
-                      ');
-                    } else {
-                      echo ('
-                      <div class="carousel-item">
-                        <div class="row text-center" style="margin: 0;">
-                      ');
-                    }
-                        echo ('
-                        <div class="box-user col" style="padding: 3%;">
-                          <button type="button" data-bs-toggle="collapse" style="border: 0px; border-radius: 125px;" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">
-                            <img src="../assets/img/placeholder_m.png" style="height: 250px; width: 250px; border-radius: 125px;"  alt="" class="mx-auto d-block">
-                          </button>
-                          <div class="collapse multi-collapse" id="multiCollapseExample1">
-                            <div class="text-center placeholder-glow card card-body">
-                              <h5>
-                                <span class="placeholder col-8 placeholder"></span>
-                              </h5>
-                              <p class="">
-                                <span class="placeholder col-7 placeholder-s"></span>
-                                <span class="placeholder col-6 placeholder-s"></span>
-                                <span class="placeholder col-4 placeholder-s"></span>
-                                <span class="placeholder col-4 placeholder-s"></span>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        ');
-
-                    echo ('
-                      </div>
-                    </div>
-                    ');
-                  }
-                }
-
-                if($datos > 0);
-                else {
                   for ($i=1; $i <= 3; $i++) {
                     if ($i == 1) {
                       echo ('
@@ -161,7 +115,6 @@
                     </div>
                     ');
                   }
-                }
 
 
                ?>

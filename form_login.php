@@ -12,18 +12,14 @@
 				  </div>
 				  <div class="d-flex justify-content-center form_container">
   					<form>
-  						<div class="form-group input-group">
-  							<div class="input-group-prepend">
-  								<span class="input-group-text"><i class="fas fa-user"></i></span>
-  							</div>
+  						<div class="mb-3 input-group">
+  								<span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-user"></i></span>
   							<input type="text" name="" class="form-control input_user" value="" placeholder="Usuario">
   						</div>
-  						<div class="form-group input-group">
-  							<div class="input-group-prepend">
-  								<span class="input-group-text"><i class="fas fa-key"></i></span>
-  							</div>
-  							<input type="password" name="" class="form-control input_pass" value="" placeholder="Contraseña">
-  						</div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-key"></i></span>
+                <input type="password" class="form-control" aria-label="" placeholder="Contrase&ntilde;a" aria-describedby="inputGroup-sizing-sm">
+              </div>
   						<div class="form-group">
   							<div class="custom-control custom-checkbox">
   								<input type="checkbox" class="custom-control-input" id="customControlInline">
@@ -31,7 +27,7 @@
   							</div>
   						</div>
   							<div class="d-flex justify-content-center mt-3 login_container">
-  				 	      <button type="submit" name="button" style="border-radius: 50px 0px; padding: 5px 20px;" class="btn login_btn azul">Entrar</button>
+  				 	      <button type="submit" name="button" style="padding: 5px 20px;" class="btn login_btn azul">Entrar</button>
   				       </div>
   					</form>
 				  </div>

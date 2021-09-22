@@ -14,39 +14,29 @@
             <div class="d-flex justify-content-center form_container">
               <form class="" action="registro.php" method="post">
                 <h4 class="card-title mt-3 text-center">Create Account</h4>
-                <div class="form-group input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> <i class="fa fa-user"></i> </span>
                   <input name="" class="form-control" placeholder="Nombre(s)" type="text">
                   <input name="" class="form-control" placeholder="Apellido(s)" type="text">
                 </div> <!-- form-group// -->
-                <div class="form-group input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> <i class="fa fa-envelope"></i> </span>
                   <input name="" class="form-control" placeholder="Correo electronico" type="email">
                 </div> <!-- form-group// -->
-                <div class="form-group input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
-                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> <i class="fa fa-phone"></i> </span>
                   <input name="" class="form-control" placeholder="Número celular" type="text">
                 </div>
-                <div class="form-group input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> <i class="fa fa-lock"></i> </span>
                   <input class="form-control" placeholder="Ingresa una contrase&ntilde;a" type="password">
                 </div> <!-- form-group// -->
-                <div class="form-group input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> <i class="fa fa-lock"></i> </span>
                   <input class="form-control" placeholder="Repite la contrase&ntilde;a" type="password">
                 </div> <!-- form-group// -->
                 <div class="form-group">
-                  <button type="submit" class="btn login_btn azul" style="border-radius: 50px 0px; padding: 5px 20px;"> Crea tu cuenta  </button>
+                  <button type="submit" class="btn login_btn azul" style="padding: 5px 20px;"> Crea tu cuenta  </button>
                 </div> <!-- form-group// -->
                 <p class="text-center">¿Tienes una cuenta? <a href="form_login.php">Ingresa</a> </p>
               </form>

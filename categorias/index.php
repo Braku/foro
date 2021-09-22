@@ -24,7 +24,7 @@
               <span class="placeholder col-6 placeholder-s"></span>
               <span class="placeholder col-8 placeholder-s"></span>
             </p>
-            <a href="categoria?id=1" tabindex="-1" class="btn placeholder col-6 float-end" style="width: 200px; border-radius: 50px 0; background: #1D3E85; padding: 7px 20px;"></a>
+            <a href="categoria" tabindex="-1" class="btn placeholder col-6 float-end" style="width: 200px; border-radius: 50px 0; background: #1D3E85; padding: 7px 20px;"></a>
           </div>
         </div>
       </section>

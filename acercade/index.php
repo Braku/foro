@@ -69,65 +69,61 @@
 
       <section class="card" style="border: 0px; border-radius: 0px;">
         <article>
-          <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-              <?php
-
-                  for ($i=1; $i <= 3; $i++) {
-                    if ($i == 1) {
-                      echo ('
-                      <div class="carousel-item active">
-                        <div class="row text-center" style="margin: 0;">
-                      ');
-                    } else {
-                      echo ('
-                      <div class="carousel-item">
-                        <div class="row text-center" style="margin: 0;">
-                      ');
-                    }
-
-                    for ($j=1; $j <= 3; $j++) {
-
-                      echo ('
-                      <div class="box-user col" style="padding: 3%;">
-                        <button type="button" data-bs-toggle="collapse" style="border: 0px; border-radius: 125px;" data-bs-target="#multiCollapseExample" aria-expanded="false" aria-controls="multiCollapseExample">
-                          <img src="../assets/img/placeholder_m.png" style="height: 250px; width: 250px; border-radius: 125px;"  alt="" class="mx-auto d-block">
-                        </button>
-                        <div class="collapse multi-collapse" id="multiCollapseExample">
-                          <div class="text-center placeholder-glow card card-body">
-                            <h5>
-                              <span class="placeholder col-8 placeholder"></span>
-                            </h5>
-                            <p class="">
-                              <span class="placeholder col-7 placeholder-s"></span>
-                              <span class="placeholder col-6 placeholder-s"></span>
-                              <span class="placeholder col-4 placeholder-s"></span>
-                              <span class="placeholder col-4 placeholder-s"></span>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      ');
-                    }
-                    echo ('
-                      </div>
-                    </div>
-                    ');
-                  }
-
-
-               ?>
-
-
-            <button class="carousel-control-prev" style="width: 3%;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" style="width: 3%;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="row text-center" style="margin: 0;">
+            <div class="box-user col" style="padding: 3%;">
+              <button type="button" data-bs-toggle="collapse" style="border: 0px; border-radius: 125px;" data-bs-target="#multiCollapseExample" aria-expanded="false" aria-controls="multiCollapseExample">
+                <img src="../assets/img/placeholder_m.png" style="height: 250px; width: 250px; border-radius: 125px;"  alt="" class="mx-auto d-block">
+              </button>
+              <div class="collapse multi-collapse" id="multiCollapseExample">
+                <div class="text-center placeholder-glow card card-body">
+                  <h5>
+                    <span class="placeholder col-8 placeholder"></span>
+                  </h5>
+                  <p class="">
+                    <span class="placeholder col-7 placeholder-s"></span>
+                    <span class="placeholder col-6 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box-user col" style="padding: 3%;">
+              <button type="button" data-bs-toggle="collapse" style="border: 0px; border-radius: 125px;" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">
+                <img src="../assets/img/placeholder_m.png" style="height: 250px; width: 250px; border-radius: 125px;"  alt="" class="mx-auto d-block">
+              </button>
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="text-center placeholder-glow card card-body">
+                  <h5>
+                    <span class="placeholder col-8 placeholder"></span>
+                  </h5>
+                  <p class="">
+                    <span class="placeholder col-7 placeholder-s"></span>
+                    <span class="placeholder col-6 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box-user col" style="padding: 3%;">
+              <button type="button" data-bs-toggle="collapse" style="border: 0px; border-radius: 125px;" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
+                <img src="../assets/img/placeholder_m.png" style="height: 250px; width: 250px; border-radius: 125px;"  alt="" class="mx-auto d-block">
+              </button>
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="text-center placeholder-glow card card-body">
+                  <h5>
+                    <span class="placeholder col-8 placeholder"></span>
+                  </h5>
+                  <p class="">
+                    <span class="placeholder col-7 placeholder-s"></span>
+                    <span class="placeholder col-6 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                    <span class="placeholder col-4 placeholder-s"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
         </article>

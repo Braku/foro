@@ -11,7 +11,20 @@
   </head>
   <body>
     <header class="container" style="padding: 0;">
-      <?php include_once '../../includes/nav.php'; ?>
+      <nav>
+        <img class="rounded float-start" src="../../assets/img/placeholder_m.png" height="80px" style="margin: -3% 0 0% 0%;" alt="">
+        <ul class="nav justify-content-end" style="margin: 5% 5% 0% 0;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../../index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../categorias">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../acercade">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <div class="container" style="margin: 2% auto;">
       <section class="card" style=" height: auto; border: 0; border-radius: 0;">
@@ -66,6 +79,7 @@
 
       <section class="card" style="border: 0; border-radius: 0;">
         <div class="card-body">
+          <h3 class="text-center">Relacionado</h3>
           <div class="row">
             <?php
                 for ($i = 0; $i < 3; $i++) {
@@ -101,16 +115,13 @@
       <!-- COMENTARIOS -->
       <section class="card" style=" border: 0; border-radius: 0;">
         <div class="card-body" style="max-width: 100%;">
-          <script type="text/javascript">
-            alert('No se encontro el taller');
-          </script>
           <div class="row g-0">
             <section class="container mt-5">
               <div class="row d-flex justify-content-left">
                 <div class="col-md-8 card-body placeholder-glow">
                   <div class="headings justify-content-between align-items-center mb-3">
                     <h5>
-                      <span class="placeholder col-4 placeholder-lg"></span>
+                      Comentarios
                     </h5>
                   </div>
                   <?php

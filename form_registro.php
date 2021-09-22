@@ -10,9 +10,6 @@
         <div class="d-flex justify-content-center h-100">
           <div class="user_card">
             <div class="d-flex justify-content-center">
-  					  <div class="brand_logo_container">
-                <a href="index.php"> <img src="assets/img/reeducar.png" class="brand_logo" alt="Logo"> </a>
-  					  </div>
   				  </div>
             <div class="d-flex justify-content-center form_container">
               <form class="" action="registro.php" method="post">

@@ -83,9 +83,12 @@
           for ($i=0; $i < 7; $i++) {
             echo('
             <div class="card-body" style="height: 100%;">
-              <h5 class="card-title placeholder-glow">
-                <span class="placeholder col-6 placeholder-lg"></span>
-              </h5>
+
+              <a href="categorias/categoria">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6 placeholder-lg"></span>
+                </h5>
+              </a>
               <p class="card-text placeholder-glow">
                 <span class="placeholder col-7 placeholder-s"></span>
                 <span class="placeholder col-4 placeholder-s"></span>
@@ -107,19 +110,55 @@
             echo('
             <div class="card-body" style="width: 100%; border-radius: 0;" aria-hidden="true">
 
-            <div class="">
-            <h5 class="card-title placeholder-glow">
-            <span class="placeholder col-6 placeholder-lg" ></span>
-            </h5>
-            <p class="card-text placeholder-glow">
-            <span class="placeholder col-7 placeholder-s" ></span>
-            <span class="placeholder col-4 placeholder-s" ></span>
-            <span class="placeholder col-4 placeholder-s" ></span>
-            <span class="placeholder col-6 placeholder-s" ></span>
-            <span class="placeholder col-8 placeholder-s" ></span>
-            </p>
-            <a href="#" tabindex="-1" class="btn disabled placeholder col-6 float-end" style=" border-radius: 50px 0; background: #1D3E85; padding: 7px 20px;"></a>
-            </div>
+              <div class="">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6 placeholder-lg" ></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7 placeholder-s" ></span>
+                  <span class="placeholder col-4 placeholder-s" ></span>
+                  <span class="placeholder col-4 placeholder-s" ></span>
+                  <span class="placeholder col-6 placeholder-s" ></span>
+                  <span class="placeholder col-8 placeholder-s" ></span>
+                </p>
+                <button type="button" name="button" data-bs-toggle="modal" data-bs-target="#ver" class="btn placeholder float-end" style="padding: 5px 50px; background: #1b3e8c;"></button>
+              </div>
+              <div class="modal fade" id="ver" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ver" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Titulo tema</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="card p-3" style=" border: 0;">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="user flex-row align-items-center">
+                          <img src="assets/img/placeholder_u.jpg" width="50px" class="user-img rounded-circle mr-2">
+                        </div>
+                        <div class="card-body">
+                          <span class="placeholder col-4 placeholder-s" style="background: #00a4ff;"></span>
+                          <span class="placeholder col-3 placeholder-s" style="background: #00a4ff;"></span>
+                          <p class="">
+                            <span class="placeholder col-7 placeholder-sm"></span>
+                            <span class="placeholder col-4 placeholder-sm"></span>
+                            <span class="placeholder col-2 placeholder-sm"></span>
+                            <span class="placeholder col-5 placeholder-sm"></span>
+                            <span class="placeholder col-3 placeholder-sm"></span>
+                            <span class="placeholder col-4 placeholder-sm"></span>
+                            <span class="placeholder col-6 placeholder-sm"></span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a href="categorias/categoria" class="btn btn-primary">Ver m&aacute;s</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             ');
           }
